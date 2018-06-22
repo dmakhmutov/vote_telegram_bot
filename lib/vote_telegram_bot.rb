@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class VoteTelegramBot
   def run
     token = ENV['TELEGRAM_API_TOKEN']
