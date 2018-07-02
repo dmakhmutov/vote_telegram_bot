@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  bot:
+    image: dmakhmutov/vote_telegram_bot:latest
+    restart: always
+    env_file:
+      - ./.env
