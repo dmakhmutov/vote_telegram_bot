@@ -1,0 +1,2 @@
+# VoteTelegramBot
+[![Build Status](https://semaphoreci.com/api/v1/dmakhmutov/vote_telegram_bot/branches/master/badge.svg)](https://semaphoreci.com/dmakhmutov/vote_telegram_bot) [![Maintainability](https://api.codeclimate.com/v1/badges/7002bf7eb705b579872d/maintainability)](https://codeclimate.com/github/dmakhmutov/vote_telegram_bot/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/7002bf7eb705b579872d/test_coverage)](https://codeclimate.com/github/dmakhmutov/vote_telegram_bot/test_coverage)
