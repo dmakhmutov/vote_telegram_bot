@@ -7,9 +7,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'activesupport'
 gem 'dotenv'
 gem 'telegram-bot-ruby'
-gem 'activesupport'
 
 group :development, :test do
   gem 'pry'

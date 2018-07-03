@@ -1,1 +1,4 @@
 .env
+.rspec
+.ruby-gemset
+.ruby-version
