@@ -8,6 +8,13 @@ git_source(:github) do |repo_name|
 end
 
 gem 'dotenv'
-gem 'pry'
-gem 'rubocop', require: false
 gem 'telegram-bot-ruby'
+gem 'pry'
+
+group :development do
+  gem 'rubocop', require: false
+end
+
+group :test do
+  gem 'rspec'
+end
