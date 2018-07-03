@@ -2,6 +2,7 @@
 
 $LOAD_PATH << File.expand_path('lib', __dir__)
 
+require 'active_support/all'
 require 'bundler'
 require 'telegram/bot'
 require_relative 'bot'

@@ -1,7 +1,7 @@
 class Bot
   class << self
     def env
-      @_env ||= ENV['BOT_ENV'] || 'development'
+      @_env ||= ActiveSupport::StringInquirer.new(ENV['BOT_ENV'] || 'development')
     end
   end
 end

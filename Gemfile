@@ -9,6 +9,7 @@ end
 
 gem 'dotenv'
 gem 'telegram-bot-ruby'
+gem 'activesupport'
 
 group :development, :test do
   gem 'pry'
