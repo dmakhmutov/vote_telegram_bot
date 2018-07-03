@@ -9,9 +9,9 @@ end
 
 gem 'dotenv'
 gem 'telegram-bot-ruby'
-gem 'pry'
 
-group :development do
+group :development, :test do
+  gem 'pry'
   gem 'rubocop', require: false
 end
 
