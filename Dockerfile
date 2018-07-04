@@ -8,4 +8,4 @@ RUN bundle config --global frozen 1
 COPY . /usr/src/app
 RUN bundle install --without development test --jobs 5
 
-CMD ruby config.ru
+CMD bundle exec ruby config.ru
